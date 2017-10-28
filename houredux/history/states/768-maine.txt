@@ -1,0 +1,25 @@
+
+state={
+	id=768
+	name="Maine"
+	manpower = 1388400
+
+	state_category = town
+
+	history={
+		owner = ENG
+		
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 1
+			dockyard = 1
+			air_base = 2
+		}
+		add_core_of = ENG
+		add_core_of = FRA
+	}
+
+	provinces={
+		11463 3509 3523 527 3495 503 9478 
+	}
+}

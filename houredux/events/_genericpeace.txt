@@ -1,0 +1,519 @@
+add_namespace = generic_peace
+
+add_namespace = generic_peace
+
+country_event = {
+	id = generic_peace.1
+	title = generic_peace.1.t
+	desc = generic_peace.1.d
+	#picture = generic_peace_1
+
+	fire_only_once = yes
+
+	trigger = {
+
+		NOT = {
+			GEN = {
+				owns_state = 755
+				owns_state = 757
+			}
+		}
+
+		tag = ROOT  
+
+		controls_state = 752
+
+		GEN = {
+			has_war_with = ROOT
+			NOT = {
+				controls_state = 752
+			}
+		}
+	}
+	
+	option = {
+		name = generic_peace.1.a
+		ai_chance = { factor = 100 }
+
+		white_peace = GEN
+
+		transfer_state = 752
+		add_state_core = 752
+	}
+
+	option = {
+		name = generic_peace.1.b
+		ai_chance = { factor = 0 }
+	}
+}
+
+country_event = {
+	id = generic_peace.2
+	title = generic_peace.2.t
+	desc = generic_peace.2.d
+	#picture = generic_peace_2
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	fire_only_once = yes
+
+	trigger = {
+
+		tag = ROOT  
+
+		controls_state = 15
+		controls_state = 19
+		controls_state = 768
+
+		ENG = {
+			has_war_with = ROOT
+			NOT = {
+				controls_state = 15
+				controls_state = 19
+				controls_state = 768
+			}
+		}
+	}
+	
+	option = {
+		name = generic_peace.2.a
+		ai_chance = { factor = 100 }
+
+		white_peace = ENG
+
+		transfer_state = 19
+		add_state_core = 19
+		transfer_state = 15
+		add_state_core = 15
+		transfer_state = 768
+		add_state_core = 768
+	}
+
+	option = {
+		name = generic_peace.2.b
+		ai_chance = { factor = 0 }
+	}
+}
+
+country_event = {
+	id = generic_peace.3
+	title = generic_peace.3.t
+	desc = generic_peace.3.d
+	#picture = generic_peace_3
+
+	fire_only_once = yes
+
+	trigger = {
+
+		tag = ROOT  
+
+		controls_state = 761
+		controls_state = 187
+		controls_state = 44
+
+		VNC = {
+			has_war_with = ROOT
+			NOT = {
+				controls_state = 761
+				controls_state = 187
+				controls_state = 44
+			}
+		}
+	}
+	
+	option = {
+		name = generic_peace.3.a
+		ai_chance = { factor = 100 }
+
+		white_peace = VNC
+
+		transfer_state = 44
+		add_state_core = 44
+		transfer_state = 761
+		add_state_core = 761
+		transfer_state = 187
+		add_state_core = 187
+	}
+
+	option = {
+		name = generic_peace.3.b
+		ai_chance = { factor = 0 }
+	}
+}
+
+country_event = {
+	id = generic_peace.4
+	title = generic_peace.4.t
+	desc = generic_peace.4.d
+	#picture = generic_peace_4
+
+	fire_only_once = yes
+
+	trigger = {
+
+		tag = ROOT  
+
+		controls_state = 218
+		controls_state = 754
+		controls_state = 753
+
+		GEN = {
+			has_war_with = ROOT
+			NOT = {
+				controls_state = 218
+				controls_state = 754
+				controls_state = 753
+			}
+		}
+	}
+	
+	option = {
+		name = generic_peace.4.a
+		ai_chance = { factor = 100 }
+
+		white_peace = GEN
+
+		transfer_state = 218
+		add_state_core = 218
+		transfer_state = 754
+		add_state_core = 754
+		transfer_state = 753
+		add_state_core = 753
+	}
+
+	option = {
+		name = generic_peace.4.b
+		ai_chance = { factor = 0 }
+	}
+}
+
+country_event = {
+	id = generic_peace.5
+	title = generic_peace.5.t
+	desc = generic_peace.5.d
+	#picture = generic_peace_5
+
+	fire_only_once = yes
+
+	trigger = {
+
+		tag = FRA  
+
+		controls_state = 165
+
+		ARA = {
+			has_war_with = FRA
+			NOT = {
+				controls_state = 165
+			}
+		}
+	}
+	
+	option = {
+		name = generic_peace.5.a
+		ai_chance = { factor = 100 }
+
+		white_peace = ARA
+
+		transfer_state = 165
+		add_state_core = 165
+	}
+
+	option = {
+		name = generic_peace.5.b
+		ai_chance = { factor = 0 }
+	}
+}
+
+country_event = {
+	id = generic_peace.6
+	title = generic_peace.6.t
+	desc = generic_peace.6.d
+	#picture = generic_peace_2
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	trigger = {
+
+		tag = ROOT  
+
+		controls_state = 29
+
+		ENG = {
+			has_war_with = ROOT
+			NOT = {
+				controls_state = 29
+			}
+		}
+	}
+	
+	option = {
+		name = generic_peace.6.a
+		ai_chance = { factor = 100 }
+
+		white_peace = ENG
+
+		transfer_state = 29
+		add_state_core = 29
+	}
+
+	option = {
+		name = generic_peace.6.b
+		ai_chance = { factor = 0 }
+	}
+}
+
+country_event = {
+	id = generic_peace.7
+	title = generic_peace.7.t
+	desc = generic_peace.7.d
+	#picture = generic_peace_2
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	trigger = {
+
+		tag = ROOT  
+
+		controls_state = 117 #naples
+		controls_state = 156 #naples
+		controls_state = 115
+
+		NAP = {
+			has_war_with = ROOT
+			NOT = {
+				controls_state = 117 #naples
+				controls_state = 156 #naples
+			}
+		}
+
+		ARA = {
+			has_war_with = ROOT
+			NOT = {
+				controls_state = 115 #naples
+			}
+		}
+	}
+	
+	option = {
+		name = generic_peace.7.a
+		ai_chance = { factor = 100 }
+
+		white_peace = ARA
+
+		white_peace = NAP
+
+		transfer_state = 115
+		add_state_core = 115
+		transfer_state = 156
+		add_state_core = 156
+		transfer_state = 117
+		add_state_core = 117
+	}
+
+	option = {
+		name = generic_peace.7.b
+		ai_chance = { factor = 0 }
+	}
+}
+
+country_event = {
+	id = generic_peace.8
+	title = generic_peace.8.t
+	desc = generic_peace.8.d
+	#picture = generic_peace_1
+
+	fire_only_once = yes
+
+	trigger = {
+
+		NOT = {
+			GEN = {
+				owns_state = 757
+			}
+		}
+
+		GEN = {
+			owns_state = 755
+		}
+
+		tag = ROOT  
+
+		controls_state = 752
+		controls_state = 755
+
+		GEN = {
+			has_war_with = ROOT
+			NOT = {
+				controls_state = 752
+				controls_state = 755
+			}
+		}
+	}
+	
+	option = {
+		name = generic_peace.8.a
+		ai_chance = { factor = 100 }
+
+		white_peace = GEN
+
+		transfer_state = 752
+		add_state_core = 752
+		transfer_state = 755
+		add_state_core = 755
+	}
+
+	option = {
+		name = generic_peace.8.b
+		ai_chance = { factor = 0 }
+	}
+}
+
+country_event = {
+	id = generic_peace.9
+	title = generic_peace.9.t
+	desc = generic_peace.9.d
+	#picture = generic_peace_1
+
+	fire_only_once = yes
+
+	trigger = {
+
+		tag = TUR  
+
+		controls_state = 341
+
+		GRE = {
+			has_war_with = TUR
+			NOT = {
+				controls_state = 341
+			}
+		}
+	}
+	
+	option = {
+		name = generic_peace.9.a
+		ai_chance = { factor = 100 }
+
+		white_peace = BYZ
+
+		set_province_name = { id = 9833 name = "Konstantinyye"}
+		set_province_name = { id = 3893 name = "Edirne"}
+
+		add_state_core = 341
+
+		if = {
+			limit = { country_exists = ATH }
+			annex_country = { target = ATH }
+		}
+
+		if = {
+			limit = { country_exists = GRE }
+			annex_country = { target = GRE }
+		}
+	}
+}
+
+country_event = {
+	id = generic_peace.10
+	title = generic_peace.10.t
+	desc = generic_peace.10.d
+	#picture = generic_peace_1
+
+	fire_only_once = yes
+
+	trigger = {
+
+		GEN = {
+			owns_state = 755
+			owns_state = 755
+		}
+
+		tag = ROOT  
+
+		controls_state = 752
+		controls_state = 757
+
+		GEN = {
+			has_war_with = ROOT
+			NOT = {
+				controls_state = 752
+				controls_state = 755
+				controls_state = 757
+			}
+		}
+	}
+	
+	option = {
+		name = generic_peace.10.a
+		ai_chance = { factor = 100 }
+
+		white_peace = GEN
+
+		transfer_state = 752
+		add_state_core = 752
+		transfer_state = 755
+		add_state_core = 755
+		transfer_state = 757
+		add_state_core = 757
+	}
+
+	option = {
+		name = generic_peace.10.b
+		ai_chance = { factor = 0 }
+	}
+}
+
+country_event = {
+	id = generic_peace.11
+	title = generic_peace.11.t
+	desc = generic_peace.11.d
+	#picture = generic_peace_1
+
+	fire_only_once = yes
+
+	trigger = {
+
+		ARA = {
+			owns_state = 115
+		}
+
+		tag = NAP  
+
+		controls_state = 115
+
+		ARA = {
+			has_war_with = NAP
+			NOT = {
+				controls_state = 115
+			}
+		}
+	}
+	
+	option = {
+		name = generic_peace.11.a
+		ai_chance = { factor = 100 }
+
+		white_peace = ARA
+
+		transfer_state = 115
+		add_state_core = 115
+		transfer_state = 116
+		add_state_core = 116
+	}
+
+	option = {
+		name = generic_peace.11.b
+		ai_chance = { factor = 0 }
+	}
+}
