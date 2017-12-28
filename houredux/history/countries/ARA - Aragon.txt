@@ -28,6 +28,7 @@ set_technology = {
 add_ideas = {
 	catholic
 	aragon
+	historical
 }
 
 set_politics = {
@@ -92,14 +93,6 @@ create_country_leader = {
 		#
 	}
 }
-
-create_field_marshal = {
-	name = "José Asensio Torrado"
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
-	traits = { defensive_doctrine }
-	skill = 2
-}
-
 
 ### Ship Variants ###
 

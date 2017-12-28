@@ -71,50 +71,6 @@ units = {
 		start_equipment_factor = 0.5
 
 	}
-	division= {	
-		name = "4. Gyalogdandár"
-		location = 701
-		division_template = "Gyalogdandár"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
-
-	}
-
-	# III Hadtest
-	division= {	
-		name = "5. Gyalogdandár"
-		location = 11627
-		division_template = "Gyalogdandár"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
-
-	}
-	division= {	
-		name = "6. Gyalogdandár"
-		location = 11627
-		division_template = "Gyalogdandár"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
-
-	}
-
-	# IV Hadtest
-	division= {	
-		name = "7. Gyalogdandár"
-		location = 11610
-		division_template = "Gyalogdandár"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
-
-	}
-	division= {	
-		name = "8. Gyalogdandár"
-		location = 11610
-		division_template = "Gyalogdandár"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
-
-	}
 
 	# V Hadtest
 	division= {	
@@ -146,50 +102,6 @@ units = {
 	division= {	
 		name = "12. Gyalogdandár"
 		location = 11659
-		division_template = "Gyalogdandár"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
-
-	}
-
-	# VII Hadtest
-	division= {	
-		name = "13. Gyalogdandár"
-		location = 6751
-		division_template = "Gyalogdandár"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
-
-	}
-	division= {	
-		name = "14. Gyalogdandár"
-		location = 6751
-		division_template = "Gyalogdandár"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
-
-	}
-	# transylvania
-	division= {	
-		name = "11. Gyalogdandár"
-		location = 6711
-		division_template = "Gyalogdandár"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
-
-	}
-	division= {	
-		name = "12. Gyalogdandár"
-		location = 6711
-		division_template = "Gyalogdandár"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
-
-	}
-
-	division= {	
-		name = "13. Gyalogdandár"
-		location = 6711
 		division_template = "Gyalogdandár"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.5
@@ -343,34 +255,6 @@ units = {
 		start_equipment_factor = 0.5
 
 	}
-
-	# IV Hadtest
-	division= {	
-		name = "7. Gyalogdandár"
-		location = 11610
-		division_template = "Gyalogdandár"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
-
-	}
-	division= {	
-		name = "8. Gyalogdandár"
-		location = 11610
-		division_template = "Gyalogdandár"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
-
-	}
-
-	# V Hadtest
-	division= {	
-		name = "9. Gyalogdandár"
-		location = 679
-		division_template = "Gyalogdandár"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
-
-	}
 	division= {	
 		name = "10. Gyalogdandár"
 		location = 679
@@ -410,108 +294,6 @@ units = {
 	division= {	
 		name = "14. Gyalogdandár"
 		location = 6751
-		division_template = "Gyalogdandár"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
-
-	}
-	# transylvania
-	division= {	
-		name = "11. Gyalogdandár"
-		location = 6711
-		division_template = "Gyalogdandár"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
-
-	}
-	division= {	
-		name = "12. Gyalogdandár"
-		location = 6711
-		division_template = "Gyalogdandár"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
-
-	}
-
-	division= {	
-		name = "13. Gyalogdandár"
-		location = 6711
-		division_template = "Gyalogdandár"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
-
-	}
-	division= {	
-		name = "14. Gyalogdandár"
-		location = 6711
-		division_template = "Gyalogdandár"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
-
-	}
-	# croatia
-	division= {	
-		name = "11. Gyalogdandár"
-		location = 11581
-		division_template = "Gyalogdandár"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
-
-	}
-	division= {	
-		name = "12. Gyalogdandár"
-		location = 11581
-		division_template = "Gyalogdandár"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
-
-	}
-
-	division= {	
-		name = "13. Gyalogdandár"
-		location = 11581
-		division_template = "Gyalogdandár"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
-
-	}
-	division= {	
-		name = "14. Gyalogdandár"
-		location = 11581
-		division_template = "Gyalogdandár"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
-
-	}
-	# slovakia
-	division= {	
-		name = "11. Gyalogdandár"
-		location = 6573
-		division_template = "Gyalogdandár"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
-
-	}
-	division= {	
-		name = "12. Gyalogdandár"
-		location = 6573
-		division_template = "Gyalogdandár"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
-
-	}
-
-	division= {	
-		name = "13. Gyalogdandár"
-		location = 6573
-		division_template = "Gyalogdandár"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
-
-	}
-	division= {	
-		name = "14. Gyalogdandár"
-		location = 6573
 		division_template = "Gyalogdandár"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.5

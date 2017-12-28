@@ -1,7 +1,6 @@
-name="HOURedux"
+name="Hearts Of Universalis - REDUX"
 path="mod/houredux/"
 tags={
-	"Alternative History"
 	"Events"
 	"National Focuses"
 	"Historical"

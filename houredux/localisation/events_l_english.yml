@@ -2943,8 +2943,42 @@
  excellent:0 "Excellent."
  unfortunate:0 "Unfortunate."
  # HOUREDUX events
+ #genoa fell
  generic_peace.1.t:0 "Genoa has fell!"
  generic_peace.1.d:0 "The Genoese have lost their capital. and the oppritunity has risen to make peace and take our rightful land!"
  generic_peace.1.a:0 "Of course, we couldnt reach azov anyway!"
  generic_peace.1.b:0 "We fight to the end! OORAH!"
+ # france takes france
+ generic_peace.2.t:0 "We have taken Brittish france!"
+ generic_peace.2.d:0 "The great french nation has taken back her rightful land! do we negotiate with the english, or not?"
+ generic_peace.2.a:0 "Viva La France!"
+ generic_peace.2.b:0  "Se battre jusqu'au bout! En avant!"
+ # take venice balkans
+ generic_peace.3.t:0 "Conquest of The Venetian Balkans"
+ generic_peace.3.d:0 "We have taken the Venetian Balkans, what do we do now?"
+ generic_peace.3.a:0 "For the nation!"
+ generic_peace.3.b:0 "Keep the fight going."
+ # genoacrime
+ generic_peace.4.t:0 "Conquest of Genoese Crimea"
+ generic_peace.4.d:0 "We have taken Genoese Crimea, what do we do now?"
+ generic_peace.4.a:0 "For the nation!"
+ generic_peace.4.b:0 "Keep the fight going."
+ # frenchies take barcelone
+ generic_peace.5.t:0 "Fall of Barcelona"
+ generic_peace.5.d:0 "Advancing forces of our great nation have captured the Aragonese port of Barcelona, what shall we do now?"
+ generic_peace.5.a:0 "Its in our interests to make peace with our newfound territory"
+ generic_peace.5.b:0 "À l'envers! à Saragosse"
+ #hist
+ historical.1.t:0 "Historical Accuracy Settings"
+ historical.1.d:0 "Do you want to have a historical game or no? Selecting no will lead to a crazy game! choose wisely."
+ historical.1.a:0 "No!"
+ historical.1.b:0 "Yes!"
+ # claimzzzz
+ eu4claims.1.t:0 "Claiming territory"
+ eu4claims.1.d:0 "We are claiming our neighbour's territory"
+ eu4claims.1.a:0 "Okay"
+ #corezzzzzz
+ eu4cores.1.t:0 "Coring States"
+ eu4cores.1.d:0 "Parts of our country are integrating into our culture nicely"
+ eu4cores.1.a:0 "Perfect"
 

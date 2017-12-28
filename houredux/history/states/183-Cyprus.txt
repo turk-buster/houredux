@@ -3,15 +3,18 @@ state= {
 	name="STATE_183"
 	manpower = 347959
 	
-	state_category = rural
+	state_category = city
 	resources={
 		chromium=4
 	}
 
 	history=
 	{
-		owner = ENG
+		owner = CYP
+		add_core_of = CYP
 		buildings = {
+			arms_factory = 1
+			industrial_complex = 3
 			infrastructure = 4
 			air_base = 1
 			11984 = {

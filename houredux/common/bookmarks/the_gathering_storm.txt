@@ -2,9 +2,9 @@ bookmarks = {
 	bookmark = {
 		name = "Hearts of Universalis REDUX"
 		desc = "The world of EU4 has been brought into the modern era. Will you survive? or be decimated by overpowering enemies."
-		date = 1936.1.1.12
+		date = 1444.1.1.12
 		picture = "GFX_select_date_1936"
-		default_country = "FRA"
+		default_country = "TUR"
 		default = yes
 		
 		"FRA"={
@@ -16,9 +16,6 @@ bookmarks = {
 				FRA_protected_by_the_maginot_line
 			}
 			focuses = {
-				FRA_initiate_government_reform
-				FRA_support_status_quo
-				FRA_revise_versailles
 			}
 		}
 		"CHI"={
@@ -30,9 +27,6 @@ bookmarks = {
 				undisturbed_isolation
 			}
 			focuses = {
-				USA_war_plan_black
-				USA_strike_at_the_empire
-				USA_pearl_harbor_gambit
 			}
 		}
 		"ENG"={
@@ -44,9 +38,6 @@ bookmarks = {
 				george_v
 			}
 			focuses = {
-				tizard_mission_focus
-				ENG_war_with_germany
-				ENG_war_with_italy
 			}
 		}
 
@@ -58,9 +49,6 @@ bookmarks = {
 				general_staff
 			}
 			focuses = {
-				GER_anschluss
-				GER_danzig_or_war
-				GER_ussr_war_goal
 			}
 		}
 		"TUR"={
@@ -71,9 +59,6 @@ bookmarks = {
 				victor_emmanuel
 			}	
 			focuses = {
-				ITA_pact_of_steel
-				ITA_spanish_italian_faction
-				ITA_italy_first
 			}		
 		}
 		"SPR"={
@@ -83,9 +68,6 @@ bookmarks = {
 				state_shintoism
 			}	
 			focuses = {
-				southern_expansion_focus
-				divine_wind_focus
-				found_own_faction_focus
 			}			
 		}
 		"SOV"={
@@ -96,9 +78,6 @@ bookmarks = {
 				home_of_revolution
 			}
 			focuses = {
-				SOV_great_purge
-				SOV_claims_on_baltic
-				SOV_war_with_uk
 			}	
 		}
 

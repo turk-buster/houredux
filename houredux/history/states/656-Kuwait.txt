@@ -6,10 +6,8 @@ state={
 	state_category = rural
 	
 	history={
-		owner = ENG
-		victory_points = {
-			8085 1 
-		}
+		owner = IRQ
+		add_core_of = IRQ
 		buildings = {
 			infrastructure = 4
 			8085 = {

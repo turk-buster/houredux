@@ -5,8 +5,8 @@ GER = {
 	color_ui = rgb { 138 155 116 }
 }
 ENG = {
-	color = rgb { 201 56 93 }
-	color_ui = rgb { 255 73 121 }
+	color = rgb { 132 35 35 }
+	color_ui = rgb { 132 35 35 }
 }
 SOV = {
 	color = rgb { 125 13 24 }
@@ -630,6 +630,96 @@ ULM = {
 LOR = {
 	color = rgb { 114  112  133 }
 	color_ui = rgb { 114  112  133 }
+}
+#
+ALS = {
+	color = rgb { 255  239  102 }
+	color_ui = rgb { 255  239  102 }
+}
+#
+BAD = {
+	color = rgb { 157  167  107 }
+	color_ui = rgb { 157  167  107 }
+}
+#
+PAI = {
+	color = rgb { 80  102  100 }
+	color_ui = rgb { 80  102  100 }
+}
+#
+KAR = {
+	color = rgb { 113  131  141 }
+	color_ui = rgb { 113  131  141 }
+}
+#
+CDR = {
+	color = rgb { 113  65  79 }
+	color_ui = rgb { 113  65  79 }
+}
+#
+SIL = {
+	color = rgb { 100  124  90 }
+	color_ui = rgb { 100  124  90 }
+}
+#
+WUR = {
+	color = rgb { 84  88  74 }
+	color_ui = rgb { 84  88  74 }
+}
+#
+ANS = {
+	color = rgb { 96  55  63 }
+	color_ui = rgb { 96  55  63 }
+}
+#
+LIE = {
+	color = rgb { 117  116  62 }
+	color_ui = rgb { 117  116  62 }
+}
+#
+BRB = {
+	color = rgb { 113  130  111 }
+	color_ui = rgb { 113  130  111 }
+}
+#
+NUR = {
+	color = rgb { 182  107  57 }
+	color_ui = rgb { 182  107  57 }
+}
+#
+FLA = {
+	color = rgb { 77  105  109 }
+	color_ui = rgb { 77  105  109 }
+}
+#
+TRI = {
+	color = rgb { 174  109  77 }
+	color_ui = rgb { 174  109  77 }
+}
+#
+CYP = {
+	color = rgb { 224  179  88 }
+	color_ui = rgb { 224  179  88 }
+}
+#
+RAM = {
+	color = rgb { 135 59 63 }
+	color_ui = rgb { 135 59 63 }
+}
+#
+KNI = {
+	color = rgb { 119 112 143 }
+	color_ui = rgb { 119 112 143 }
+}
+#
+SCO = {
+	color = rgb { 159 132 63 }
+	color_ui = rgb { 159 132 63 }
+}
+#
+AAC = {
+	color = rgb { 131 74 115 }
+	color_ui = rgb { 131 74 115 }
 }
 #
 # N O T    C O U N T R I E S

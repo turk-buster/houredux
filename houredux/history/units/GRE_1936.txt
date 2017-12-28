@@ -77,26 +77,6 @@ units = {
 
 	}
 
-	# D Sóma Stratoú
-	division = {
-		name = "VII Merarchía Pezikoú"
-		location = 11965
-		division_template = "Trigonikó Pezikoú" 
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
-
-	}
-
-	# E Sóma Stratoú
-	division = {
-		name = "XII Merarchía Pezikoú"
-		location = 11965
-		division_template = "Trigonikó Pezikoú" 
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
-
-	}
-
 	##### NAVAL UNITS #####
 	navy = {					
 		name = "Vasilikó Polemikó Naftikó"				

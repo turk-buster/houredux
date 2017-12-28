@@ -54,18 +54,20 @@ country_event = {
 	#picture = generic_peace_2
 
 	mean_time_to_happen = {
-		days = 1
+		days = 50
 	}
 
 	fire_only_once = yes
 
 	trigger = {
 
-		tag = ROOT  
+		tag = FRA  
 
 		controls_state = 15
 		controls_state = 19
 		controls_state = 768
+
+		FRA = { exists = yes }
 
 		ENG = {
 			has_war_with = ROOT
@@ -73,6 +75,15 @@ country_event = {
 				controls_state = 15
 				controls_state = 19
 				controls_state = 768
+
+				OR = {
+					owns_state = 769
+					owns_state = 23
+					owns_state = 14
+					owns_state = 30
+					owns_state = 767 
+					owns_state = 16
+				}
 			}
 		}
 	}
@@ -135,6 +146,15 @@ country_event = {
 		add_state_core = 761
 		transfer_state = 187
 		add_state_core = 187
+		if = {
+			limit = {
+		 		VNC = {
+		 		 	owns_state = 745
+		 		}
+		 	}
+			transfer_state = 745
+			add_state_core = 745
+		}
 	}
 
 	option = {
@@ -387,6 +407,10 @@ country_event = {
 
 	fire_only_once = yes
 
+	mean_time_to_happen = {
+		days = 15
+	}
+
 	trigger = {
 
 		tag = TUR  
@@ -515,5 +539,41 @@ country_event = {
 	option = {
 		name = generic_peace.11.b
 		ai_chance = { factor = 0 }
+	}
+}
+
+country_event = {
+	id = generic_peace.12
+	title = generic_peace.12.t
+	desc = generic_peace.12.d
+	#picture = generic_peace_1
+
+	fire_only_once = yes
+
+	trigger = {
+
+		tag = TUR  
+
+		controls_state = 341
+	}
+	
+	option = {
+		name = generic_peace.12.a
+		ai_chance = { factor = 100 }
+
+		set_province_name = { id = 9833 name = "Konstantinyye"}
+		set_province_name = { id = 3893 name = "Edirne"}
+
+		add_state_core = 341
+
+		if = {
+			limit = { country_exists = ATH }
+			annex_country = { target = ATH }
+		}
+
+		if = {
+			limit = { country_exists = GRE }
+			annex_country = { target = GRE }
+		}
 	}
 }

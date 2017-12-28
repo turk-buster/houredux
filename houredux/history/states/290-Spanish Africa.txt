@@ -20,13 +20,13 @@ state={
 		buildings = {
 			infrastructure = 3
 			air_base = 3
-			12100 = {
-				naval_base = 3
+			9945 = {
+				naval_base = 6
 			}
 		}
 	}
 
 	provinces={
-		4199 7215 9945 10113 12087 12100 
+		9945 12087 10013 
 	}
 }

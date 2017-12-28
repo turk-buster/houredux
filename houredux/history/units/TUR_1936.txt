@@ -539,8 +539,8 @@ units = {
 	}				
 	navy = {				
 		name = "Filotilla Denizalti Kücük"			
-		base = 11894 
-		location = 11894 # Samsun
+		base = 4112 
+		location = 4112 # Samsun
 		ship = { name = "TCG Birinci Inönü" definition = submarine equipment = { submarine_1 = { amount = 1 owner = TUR } } }		
 		ship = { name = "TCG Ikinci Inönü" definition = submarine equipment = { submarine_1 = { amount = 1 owner = TUR } } }		
 		ship = { name = "TCG Dumlupinar" definition = submarine equipment = { submarine_1 = { amount = 1 owner = TUR version_name = "Dumlupinar Class" } } }

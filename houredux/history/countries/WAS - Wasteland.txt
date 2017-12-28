@@ -29,6 +29,7 @@ set_politics = {
 
 add_ideas = {
 	wasteland
+	closed_economy
 }
 
 create_country_leader = {

@@ -41,10 +41,21 @@ set_politics = {
 
 set_national_unity = 0.50
 
+give_guarantee = NUR
+
+give_guarantee = AAC
+
+give_guarantee = RAV
+
+give_guarantee = ULM
+
+give_guarantee = MEM
+
 add_ideas = {
 	catholic
 	austria
 	hre
+	historical
 }
 
 create_country_leader = {
@@ -56,33 +67,4 @@ create_country_leader = {
 	traits = {
 		#
 	}
-}
-
-create_country_leader = {
-	name = "Karl Renner"
-	desc = "POLITICS_KARL_RENNER_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
-	expire = "1965.1.1"
-	ideology = socialism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Alfred Klahr"
-	desc = "POLITICS_ALFRED_KLAHR_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
-	expire = "1965.1.1"
-	ideology = marxism
-	traits = {
-		#
-	}
-}
-
-create_corps_commander = {
-	name = "Karl Eglseer"
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
-	traits = { trait_mountaineer trickster }
-	skill = 3
 }

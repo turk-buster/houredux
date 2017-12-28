@@ -59,32 +59,6 @@ units = {
 		start_equipment_factor = 0.5
 
 	}
-	division = {
-		name = "VIII Merarchía Pezikoú"
-		location = 976
-		division_template = "Tetrágono Pezikoú" 
-		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-
-	# A Sóma Stratoú
-	division = {
-		name = "II Merarchía Pezikoú"
-		location = 976
-		division_template = "Tetrágono Pezikoú" 
-		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-	division = {
-		name = "III Merarchía Pezikoú"
-		location = 976
-		division_template = "Trigonikó Pezikoú" 
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
-
-	}
 
 	##### NAVAL UNITS #####
 	navy = {					

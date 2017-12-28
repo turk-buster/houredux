@@ -185,27 +185,6 @@ create_country_leader = {
 	}
 }
 
-create_field_marshal = {
-	name = "Arturo Rawson"
-	portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_land_2.dds"
-	traits = { defensive_doctrine }
-	skill = 3
-}
-
-create_corps_commander = {
-	name = "Juan Pistarini"
-	portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_land_3.dds"
-	traits = { urban_assault_specialist fortress_buster }
-	skill = 3
-}
-
-create_navy_leader = {
-	name = "Alberto Teisaire"
-	portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_navy_1.dds"
-	traits = { blockade_runner }
-	skill = 3
-}
-
 ### Ship Variants ###
 
 create_equipment_variant = {

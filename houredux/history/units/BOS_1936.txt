@@ -39,18 +39,6 @@ division_template = {
 		cavalry = { x = 1 y = 2 }
 	}
 }
-division_template = {
-	name = "Tenkovski Bataljon" 			# Tank Battalion
-	# Note: 1st Armor Battalion had FT-17s in 1936, 
-	#	2nd battalion formed when R-35s added in 1940
-	regiments = {
-		light_armor = { x = 0 y = 0 }
-		infantry = { x = 1 y = 0 }       # added infantry to not make it a death trap
-		infantry = { x = 1 y = 1 }
-		infantry = { x = 1 y = 2 }
-	}
-}
-
 
 units = {
 	######## LAND UNITS ########
@@ -69,16 +57,6 @@ units = {
 		start_equipment_factor = 0.3
 
 	}
-	division = {
-		name = "1. Bataljon Bornih Kola"
-		location = 11899
-		division_template = "Tenkovski Bataljon"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1
-		force_equipment_variants = { gw_tank_equipment = { owner = "YUG" creator = "FRA" } }
-
-	}
-
 	### Obalnim Armija ###
 	division = {
 		name = "12. 'Jadranska' Pesadijska Div."  			# Peadijska if we get font support

@@ -2473,6 +2473,7 @@
  communism_banned:0 "Revolutionary Banned"
  takuo_godo:0 "Takuo Godo"
  # houredux
+ hre:0 "HRE member"
  # religions
  sunni:0 "Sunni"
  shia:0 "Shia"
@@ -2487,6 +2488,7 @@
  prussia:0 "Prussian Units"
  #??
  wasteland:0 "Unorganized Tribes"
+ historical:0 "Historical Game"
  #-----------------------------------------------------------------------------------
  #
  #

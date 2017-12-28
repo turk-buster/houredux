@@ -14,6 +14,8 @@ country_event = {
 
 		NOT = { tag = CLD }
 
+		NOT = { has_idea = historical }
+
 		any_state = {
 			AND = {
 
@@ -29,7 +31,7 @@ country_event = {
 	}
 
 	mean_time_to_happen = {
-		days = 150
+		days = 365
 	}
 
 	option = {

@@ -2,7 +2,7 @@
 state={
 	id=54
 	name="STATE_54"
-	manpower = 2508159
+	manpower = 1308159
 
 	state_category = city
 
@@ -13,19 +13,10 @@ state={
 			industrial_complex = 2
 			arms_factory = 1
 		}
-		victory_points = {
-			11544 10 
-		}
 		add_core_of = GER
-
-		1939.1.1 = {
-			buildings = {
-				air_base = 3
-			}
-		}
 	}
 
 	provinces={
-		561 3474 6421 6594 9416 9557 9572 11404 11417 11529 11544 13116 
+		3474 6421 6594 11404 11417 13116 
 	}
 }

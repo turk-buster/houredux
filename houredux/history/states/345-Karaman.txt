@@ -7,14 +7,16 @@ state={
 	state_category = rural
 
 	history={
-		owner = TUR
+		owner = KAR
 		buildings = {
+			industrial_complex = 1
 			infrastructure = 3
 		}
+		add_core_of = KAR
 		add_core_of = TUR
 	}
 
 	provinces={
-		1122 4008 4124 4127 7026 7143 10056 
+		4008 4124 7026 7143 10056 
 	}
 }

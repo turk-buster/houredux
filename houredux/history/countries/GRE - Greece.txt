@@ -64,20 +64,12 @@ set_national_unity = 1.0
 create_country_leader = {
 	name = "John VIII Palaeologus"
 	desc = "POLITICS_IOANNIS_METAXAS_DESC"
-	picture = "Portrait_Greece_Ioannis_Metaxas.dds"
+	picture = ""
 	expire = "1965.1.1"
 	ideology = nazism
 	traits = {
 		#
 	}
-}
-
-
-create_corps_commander = {
-	name = "Markos Drakos"
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
-	traits = { hill_fighter }
-	skill = 3
 }
 
 ### Ship Variants ###

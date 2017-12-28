@@ -3281,7 +3281,7 @@ spriteTypes = {
 	}
 	#ideas
 	spriteType = {
-		name = "GFX_idea_hre"
-		texturefile = "gfx/interface/ideas/hre.dds"
+		name = "GFX_idea_historical"
+		texturefile = "gfx/interface/ideas/historical.dds"
 	}
 }

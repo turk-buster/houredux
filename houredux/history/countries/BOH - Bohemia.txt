@@ -23,6 +23,7 @@ set_research_slots = 3
 add_ideas = {
 	hre
 	catholic
+	historical
 }
 
 set_politics = {
@@ -61,10 +62,55 @@ create_country_leader = {
 	}
 }
 
-create_field_marshal = {
-	name = "Vojtěch Luža"
-	gfx = "GFX_Portrait_czechoslovakia_vojtech_luza"
-	traits = { fast_planner offensive_doctrine }
-	skill = 3
+set_autonomy = {
+	target = SIL
+	autonomous_state = autonomy_integrated_puppet
 }
+
+SIL = {
+	set_politics = {
+
+	parties = {
+			democratic = { 
+				popularity = 0
+			}
+
+			fascism = {
+				popularity = 100
+			}
+		
+			communism = {
+				popularity = 0
+			}
+		
+			neutrality = { 
+				popularity = 0
+			}
+		}
+		ruling_party = fascism
+		last_election = "1936.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+
+	create_country_leader = {
+	name = "Jan I Piast"
+	desc = "POLITICS_EDVARD_BENES_DESC"
+	picture = "Portrait_Czech_Edvard_Benes.dds"
+	expire = "1965.1.1"
+	ideology = nazism
+	traits = {
+		#
+	}
+
+	add_ideas = {
+		hre
+		catholic
+	}
+
+	capital = 66
+
+	oob = "SIL_1936"
+}
+
 

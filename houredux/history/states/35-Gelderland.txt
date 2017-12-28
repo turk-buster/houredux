@@ -7,7 +7,8 @@ state={
 	state_category = city
 
 	history={
-		owner = HOL
+		owner = BRB
+		add_core_of = BRB
 		buildings = {
 			infrastructure = 7
 			industrial_complex = 5
@@ -15,10 +16,9 @@ state={
 		victory_points = {
 			6496 5
 		}
-
 	}
 
 	provinces={
-		3262 6496 6500 11456 11562 
+		3262 6496 6500 11456 11562 11419 
 	}
 }

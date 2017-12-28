@@ -2,23 +2,17 @@
 state={
 	id=29
 	name="STATE_29"
-	manpower = 2556400
+	manpower = 2000000
 	
 	state_category = city
 	resources={
-		aluminium=22
+		aluminium=20
 	}
 
 	history={
 		owner = ENG
 		victory_points = {
-			575 5
-		}
-		victory_points = {
-			11483 10
-		}
-		victory_points = {
-			11548 15
+			11548 20
 		}
 		buildings = {
 			infrastructure = 8
@@ -32,6 +26,6 @@ state={
 	}
 
 	provinces={
-		575 3536 11483 11548 
+		11548 
 	}
 }

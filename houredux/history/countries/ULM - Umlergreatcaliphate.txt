@@ -72,12 +72,5 @@ create_corps_commander = {
 	name = "Selim Muhammad IV Grand Caliph of Ulm"
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
 	traits = { trait_mountaineer trickster }
-	skill = 3
-}
-
-create_corps_commander = {
-	name = "Upper Ulmer Uberrace Grand Wizard"
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
-	traits = { trait_mountaineer trickster }
-	skill = 3
+	skill = 6
 }

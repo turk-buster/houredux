@@ -36,7 +36,7 @@ set_politics = {
 set_convoys = 5
 
 add_ideas = {
-	orthodox
+	catholic
 	albania
 }
 
@@ -49,11 +49,5 @@ create_country_leader = {
 	traits = {
 		#
 	}
-}
-
-create_field_marshal = {
-	name = "Xhemal Aranitasi"
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
-	skill = 2
 }
 

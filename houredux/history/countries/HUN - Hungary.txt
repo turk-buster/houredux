@@ -18,6 +18,7 @@ set_technology = {
 add_ideas = {
 	catholic
 	hungary
+	historical
 }
 
 set_politics = {
@@ -57,56 +58,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Árpád Szakasits"
-	desc = "POLITICS_ARPAD_SZAKASITS_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
-	expire = "1965.1.1"
-	ideology = socialism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Miklós Horthy"
+	name = "(interregnum)"
 	desc = "POLITICS_MIKLOS_HORTHY_DESC"
-	picture = "Portrait_Hungary_Miklos_Horthy.dds"
+	picture = ""
 		expire = "1965.1.1"
 	ideology = fascism_ideology
-}
-
-
-create_corps_commander = {
-	name = "Géza Lakatos"
-	gfx = GFX_Portrait_hungary_geza_lakatos
-	traits = {  }
-	skill = 3
-}
-
-create_corps_commander = {
-	name = "Iván Hindy"
-	gfx = GFX_Portrait_hungary_ivan_hindy
-	traits = {  trickster }
-	skill = 4
-}
-
-create_corps_commander = {
-	name = "Károly Beregfy"
-	gfx = GFX_Portrait_hungary_karoly_beregfy
-	traits = { }
-	skill = 1
-}
-
-create_corps_commander = {
-	name = "Lajos Veress"
-	gfx = GFX_Portrait_hungary_lajos_veress
-	traits = { panzer_leader }
-	skill = 2
-}
-
-create_field_marshal = {
-	name = "Ferenc Feketehalmy-Czeydner"
-	gfx = GFX_Portrait_hungary_ferenc_feketehalmy_czeydner
-	traits = { }
-	skill = 2
 }
