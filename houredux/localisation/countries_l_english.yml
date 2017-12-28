@@ -1706,6 +1706,13 @@
  AAC_fascism_ADJ:0 "Aachener"
  AAC_communism_ADJ:0 "Aachener"
  #
+ WRZ_fascism:0 "Wurzburg"
+ WRZ_fascism_DEF:0 "Wurzburg"
+ WRZ_communism:2 "Revolutionary Wurzburg"
+ WRZ_communism_DEF:1 "Revolutionary Wurzburg"
+ WRZ_fascism_ADJ:0 "Wurzburger"
+ WRZ_communism_ADJ:0 "Wurzburger"
+ #
  # N O T   C O U N T R I E S
  #
  CLD_fascism:0 ""

@@ -162,6 +162,7 @@ RAM = "countries/Ramazan.txt"
 KNI = "countries/TheKnights.txt"
 SCO = "countries/Scotland.txt"
 AAC = "countries/Aachen.txt"
+WRZ = "countries/Wurzburg.txt"
 #
 #  N O T C O U N T R I E S 
 #

@@ -722,6 +722,11 @@ AAC = {
 	color_ui = rgb { 131 74 115 }
 }
 #
+WRZ = {
+	color = rgb { 124 109 88 }
+	color_ui = rgb { 124 109 88 }
+}
+#
 # N O T    C O U N T R I E S
 #
 WAS = {
