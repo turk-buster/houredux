@@ -727,6 +727,16 @@ WRZ = {
 	color_ui = rgb { 124 109 88 }
 }
 #
+MAI = {
+	color = rgb { 133  106  77 }
+	color_ui = rgb { 133  106  77 }
+}
+#
+FRK = {
+	color = rgb { 173  140  71 }
+	color_ui = rgb { 173  140  71 }
+}
+#
 # N O T    C O U N T R I E S
 #
 WAS = {

@@ -140,8 +140,8 @@ opinion_modifiers = {
 	improve_relation = {
 		value = 0
 		months = 0
-		decay = 3
-		max_trust = 100
+		decay = 1
+		max_trust = 200
 	}
 	
 	guarantee = {

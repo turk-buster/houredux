@@ -84,13 +84,3 @@ create_country_leader = {
 	traits = {
 	}
 }
-
-create_country_leader = {
-	name = "Konrad Adenauer"
-	desc = "POLITICS_KONRAD_ADENAUER_DESC"
-	picture = "Portrait_Germany_Konrad_Adenauer.dds"
-	expire = "1965.1.1"
-	ideology = socialism
-	traits = {
-	}
-}

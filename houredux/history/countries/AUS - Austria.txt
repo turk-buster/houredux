@@ -51,6 +51,8 @@ give_guarantee = ULM
 
 give_guarantee = MEM
 
+give_guarantee = FRK
+
 add_ideas = {
 	catholic
 	austria

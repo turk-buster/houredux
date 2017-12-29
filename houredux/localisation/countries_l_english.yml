@@ -1713,6 +1713,20 @@
  WRZ_fascism_ADJ:0 "Wurzburger"
  WRZ_communism_ADJ:0 "Wurzburger"
  #
+ MAI_fascism:0 "Mainz"
+ MAI_fascism_DEF:0 "Mainz"
+ MAI_communism:2 "Revolutionary Mainz"
+ MAI_communism_DEF:1 "Revolutionary Mainz"
+ MAI_fascism_ADJ:0 "Mainzer"
+ MAI_communism_ADJ:0 "Mainzer"
+ #
+ FRK_fascism:0 "Frankfurt"
+ FRK_fascism_DEF:0 "Frankfurt"
+ FRK_communism:2 "Revolutionary Frankfurt"
+ FRK_communism_DEF:1 "Revolutionary Frankfurt"
+ FRK_fascism_ADJ:0 "Frankfurter"
+ FRK_communism_ADJ:0 "Frankfurter"
+ #
  # N O T   C O U N T R I E S
  #
  CLD_fascism:0 ""

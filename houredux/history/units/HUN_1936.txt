@@ -237,68 +237,6 @@ units = {
 		start_equipment_factor = 0.5
 
 	}
-
-	# III Hadtest
-	division= {	
-		name = "5. Gyalogdandár"
-		location = 11627
-		division_template = "Gyalogdandár"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
-
-	}
-	division= {	
-		name = "6. Gyalogdandár"
-		location = 11627
-		division_template = "Gyalogdandár"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
-
-	}
-	division= {	
-		name = "10. Gyalogdandár"
-		location = 679
-		division_template = "Gyalogdandár"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
-
-	}
-
-	# VI Hadtest
-	division= {	
-		name = "11. Gyalogdandár"
-		location = 11659
-		division_template = "Gyalogdandár"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
-
-	}
-	division= {	
-		name = "12. Gyalogdandár"
-		location = 11659
-		division_template = "Gyalogdandár"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
-
-	}
-
-	# VII Hadtest
-	division= {	
-		name = "13. Gyalogdandár"
-		location = 6751
-		division_template = "Gyalogdandár"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
-
-	}
-	division= {	
-		name = "14. Gyalogdandár"
-		location = 6751
-		division_template = "Gyalogdandár"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
-
-	}
 }
 
 ### Magyar Légiero ###

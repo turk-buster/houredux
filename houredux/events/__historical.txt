@@ -24,38 +24,74 @@ country_event = {
 
 		FRA = {
 			remove_ideas = historical
+			country_event = {
+				id = eu4claims.1
+				days = 1
+			}
 		}
 
 		ENG = {
 			remove_ideas = historical
+			country_event = {
+				id = eu4claims.1
+				days = 1
+			}
 		}
 
 		SPR = {
 			remove_ideas = historical
+			country_event = {
+				id = eu4claims.1
+				days = 1
+			}
 		}
 
 		TUR = {
 			remove_ideas = historical
+			country_event = {
+				id = eu4claims.1
+				days = 1
+			}
 		}
 
 		AUS = {
 			remove_ideas = historical
+			country_event = {
+				id = eu4claims.1
+				days = 1
+			}
 		}
 
 		HUN = {
 			remove_ideas = historical
+			country_event = {
+				id = eu4claims.1
+				days = 1
+			}
 		}
 
 		PAP = {
 			remove_ideas = historical
+			country_event = {
+				id = eu4claims.1
+				days = 1
+			}
 		}
 
 		ARA = {
 			remove_ideas = historical
+			country_event = {
+				id = eu4claims.1
+				days = 1
+			}
 		}
 
 		BOH = {
 			remove_ideas = historical
+			country_event = {
+				id = eu4claims.1
+				days = 1
+			}
 		}
 	}
 
